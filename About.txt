@@ -1,0 +1,26 @@
+Churn prediction is predicting which customers are at high risk of leaving your company or canceling a subscription to a service, based on their behavior with your product. 
+
+
+This Churn prediction model is build using ANN Model.Artificial Neural Network(ANN) uses the processing of the brain as a basis to develop algorithms that can be used to model complex patterns and prediction problems.
+
+Libraries used:-Pandas,numpy,sklearn,tensorflow and keras 
+
+
+Data used:
+
+
+Steps used in building the model
+
+a)Data preprocessing stage
+
+1) Import necessary libraries for data processing and ANN.Using this import csv file using pandas library.
+2)Encoding categorical data to continuous data using Label and OneHotEncoding techniques 
+3) Splitting the dataset into the Training set and Test set.
+4) Feature scaling to maintain uniform scale across the data set.
+
+
+b)Training the model with ANN
+
+1)Initializing the ANN and creating first and second hidden layer with relu activation function
+2)Creating output layer with sigmoid function
+3)Compiling and predicting the output using confusion matrix and accuracy score
